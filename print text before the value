@@ -1,0 +1,3 @@
+# When printing a value and calling out an Letter function before the Value
+Fav_num = {'Rayver': '2', 'Ace': '88', 'AJ': '45'}
+print(f"His fav number is: {Fav_num.get('Rayver')}")

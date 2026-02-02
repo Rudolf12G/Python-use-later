@@ -1,0 +1,10 @@
+favorite_languages = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python',
+}
+#it checks if the subject is inside the list
+friends = ['phil', 'sarah', 'edward']
+if 'erin' not in favorite_languages.keys():
+    print("Erin, please take our poll!")

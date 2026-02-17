@@ -8,15 +8,7 @@ favorite_languages = {
 }
 
 '''
-use this if you want to print the key, {'1':'...'}
-print(key)
-
-and this if you want to print the value, {'...':'rudolf'}
+loop statement that work like this (key, value)
 '''
-
-for name, language in favorite_languages.items():
-    print(f"{name.title()}'s favorite language is {language.title()}.")
-
-# Both print the Key and Main Value
-for key, value in sorted(favorite_languages.items()):
-print(f"{key} {value}")
+     for names, language in favorite_languages():
+        print(f"The {names} Loves {language}")

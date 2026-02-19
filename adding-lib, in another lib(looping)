@@ -1,0 +1,20 @@
+classmate = {
+    'rk': {
+        'first': 'rayver',
+        'second': 'fernandez',
+        'location': 'teresa'
+    },
+    'ace': {
+        'first': 'francis-ace',
+        'second': 'cenina',
+        'location': 'niugan'
+    }
+}
+
+for pangalan, identity in classmate.items():
+    print(f"\nName: {pangalan}")
+    full_identity = f"{identity['first']} {identity['second']}"
+    location = identity['location']
+
+    print(f"\tFullname: {full_identity.title()}")
+    print(f"\tLocation: {location.title()}")

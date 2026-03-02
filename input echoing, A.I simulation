@@ -1,0 +1,18 @@
+import time
+import sys
+
+car = input("What kind of rental car would you like?: ")
+
+print("\nLoading...")
+for i in range(6):  # 0 to 5
+    print(f"{i}/5", end="\r")
+    time.sleep(0.5)
+
+
+message = f"\nHere's the Information I've got from 100 Articles about... {car.title()}"
+
+
+for char in message:
+    sys.stdout.write(char)
+    sys.stdout.flush()
+    time.sleep(0.001)

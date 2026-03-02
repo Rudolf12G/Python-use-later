@@ -1,0 +1,11 @@
+import random
+
+available_seat = int(input("How many people are occupying: "))
+limit = 8
+
+if available_seat >= limit:
+    print(f"\nYou have to wait for another available seat. Please be patient.")
+
+else:
+    table_number = random.randint(1, 20)
+    print(f"\nThere are available seats on table {table_number}.")
